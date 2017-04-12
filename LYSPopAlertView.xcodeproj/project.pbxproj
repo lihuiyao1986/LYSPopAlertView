@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48E64AA41E9CD3E9008C15D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E64AA31E9CD3E9008C15D4 /* main.m */; };
+		48E64AA71E9CD3E9008C15D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E64AA61E9CD3E9008C15D4 /* AppDelegate.m */; };
+		48E64AAA1E9CD3E9008C15D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E64AA91E9CD3E9008C15D4 /* ViewController.m */; };
+		48E64AAD1E9CD3E9008C15D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48E64AAB1E9CD3E9008C15D4 /* Main.storyboard */; };
+		48E64AAF1E9CD3E9008C15D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48E64AAE1E9CD3E9008C15D4 /* Assets.xcassets */; };
+		48E64AB21E9CD3E9008C15D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48E64AB01E9CD3E9008C15D4 /* LaunchScreen.storyboard */; };
+		48E64ABC1E9CD424008C15D4 /* LYSPopAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E64ABB1E9CD424008C15D4 /* LYSPopAlertView.m */; };
+		48FEBE101E9DCE3800FA5267 /* LYSPopAlertView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 48FEBE0F1E9DCE3800FA5267 /* LYSPopAlertView.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48E64A9F1E9CD3E9008C15D4 /* LYSPopAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYSPopAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48E64AA31E9CD3E9008C15D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48E64AA51E9CD3E9008C15D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		48E64AA61E9CD3E9008C15D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		48E64AA81E9CD3E9008C15D4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		48E64AA91E9CD3E9008C15D4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		48E64AAC1E9CD3E9008C15D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48E64AAE1E9CD3E9008C15D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48E64AB11E9CD3E9008C15D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48E64AB31E9CD3E9008C15D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48E64ABA1E9CD424008C15D4 /* LYSPopAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYSPopAlertView.h; sourceTree = "<group>"; };
+		48E64ABB1E9CD424008C15D4 /* LYSPopAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYSPopAlertView.m; sourceTree = "<group>"; };
+		48FEBE0F1E9DCE3800FA5267 /* LYSPopAlertView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LYSPopAlertView.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48E64A9C1E9CD3E9008C15D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48E64A961E9CD3E9008C15D4 = {
+			isa = PBXGroup;
+			children = (
+				48E64AA11E9CD3E9008C15D4 /* LYSPopAlertView */,
+				48E64AA01E9CD3E9008C15D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48E64AA01E9CD3E9008C15D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48E64A9F1E9CD3E9008C15D4 /* LYSPopAlertView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48E64AA11E9CD3E9008C15D4 /* LYSPopAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				48E64AB91E9CD407008C15D4 /* LYSPopAlertView */,
+				48E64AA51E9CD3E9008C15D4 /* AppDelegate.h */,
+				48E64AA61E9CD3E9008C15D4 /* AppDelegate.m */,
+				48E64AA81E9CD3E9008C15D4 /* ViewController.h */,
+				48E64AA91E9CD3E9008C15D4 /* ViewController.m */,
+				48E64AAB1E9CD3E9008C15D4 /* Main.storyboard */,
+				48E64AAE1E9CD3E9008C15D4 /* Assets.xcassets */,
+				48E64AB01E9CD3E9008C15D4 /* LaunchScreen.storyboard */,
+				48E64AB31E9CD3E9008C15D4 /* Info.plist */,
+				48E64AA21E9CD3E9008C15D4 /* Supporting Files */,
+			);
+			path = LYSPopAlertView;
+			sourceTree = "<group>";
+		};
+		48E64AA21E9CD3E9008C15D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48E64AA31E9CD3E9008C15D4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48E64AB91E9CD407008C15D4 /* LYSPopAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				48E64ABA1E9CD424008C15D4 /* LYSPopAlertView.h */,
+				48E64ABB1E9CD424008C15D4 /* LYSPopAlertView.m */,
+				48FEBE0F1E9DCE3800FA5267 /* LYSPopAlertView.bundle */,
+			);
+			path = LYSPopAlertView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48E64A9E1E9CD3E9008C15D4 /* LYSPopAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48E64AB61E9CD3E9008C15D4 /* Build configuration list for PBXNativeTarget "LYSPopAlertView" */;
+			buildPhases = (
+				48E64A9B1E9CD3E9008C15D4 /* Sources */,
+				48E64A9C1E9CD3E9008C15D4 /* Frameworks */,
+				48E64A9D1E9CD3E9008C15D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYSPopAlertView;
+			productName = LYSPopAlertView;
+			productReference = 48E64A9F1E9CD3E9008C15D4 /* LYSPopAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48E64A971E9CD3E9008C15D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Goldcard;
+				TargetAttributes = {
+					48E64A9E1E9CD3E9008C15D4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4CX6972XTR;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 48E64A9A1E9CD3E9008C15D4 /* Build configuration list for PBXProject "LYSPopAlertView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48E64A961E9CD3E9008C15D4;
+			productRefGroup = 48E64AA01E9CD3E9008C15D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48E64A9E1E9CD3E9008C15D4 /* LYSPopAlertView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48E64A9D1E9CD3E9008C15D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48FEBE101E9DCE3800FA5267 /* LYSPopAlertView.bundle in Resources */,
+				48E64AB21E9CD3E9008C15D4 /* LaunchScreen.storyboard in Resources */,
+				48E64AAF1E9CD3E9008C15D4 /* Assets.xcassets in Resources */,
+				48E64AAD1E9CD3E9008C15D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48E64A9B1E9CD3E9008C15D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E64AAA1E9CD3E9008C15D4 /* ViewController.m in Sources */,
+				48E64AA71E9CD3E9008C15D4 /* AppDelegate.m in Sources */,
+				48E64ABC1E9CD424008C15D4 /* LYSPopAlertView.m in Sources */,
+				48E64AA41E9CD3E9008C15D4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		48E64AAB1E9CD3E9008C15D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48E64AAC1E9CD3E9008C15D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48E64AB01E9CD3E9008C15D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48E64AB11E9CD3E9008C15D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48E64AB41E9CD3E9008C15D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48E64AB51E9CD3E9008C15D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48E64AB71E9CD3E9008C15D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4CX6972XTR;
+				INFOPLIST_FILE = LYSPopAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lys.test.LYSPopAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		48E64AB81E9CD3E9008C15D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4CX6972XTR;
+				INFOPLIST_FILE = LYSPopAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lys.test.LYSPopAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48E64A9A1E9CD3E9008C15D4 /* Build configuration list for PBXProject "LYSPopAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48E64AB41E9CD3E9008C15D4 /* Debug */,
+				48E64AB51E9CD3E9008C15D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48E64AB61E9CD3E9008C15D4 /* Build configuration list for PBXNativeTarget "LYSPopAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48E64AB71E9CD3E9008C15D4 /* Debug */,
+				48E64AB81E9CD3E9008C15D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48E64A971E9CD3E9008C15D4 /* Project object */;
+}
